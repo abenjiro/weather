@@ -51735,7 +51735,14 @@ var render = function() {
               _c("div", { staticClass: "col-lg-12" }, [
                 _c("div", { staticClass: "card" }, [
                   _c("div", { staticStyle: { "text-align": "center" } }, [
-                    _c("h2", [_vm._v(_vm._s(_vm.weathers.city.name))])
+                    _c("h2", [
+                      _vm._v(
+                        _vm._s(_vm.weathers.city.name) +
+                          " (" +
+                          _vm._s(_vm.weathers.city.country) +
+                          ")"
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
                   _c("div", {}, [

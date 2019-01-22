@@ -28,7 +28,7 @@
             <div  class="row" style="margin-top: 40px;">
             <div class="col-lg-12">
             <div class="card">
-            <div class="" style="text-align: center;"><h2>{{weathers.city.name}}</h2></div>
+            <div class="" style="text-align: center;"><h2>{{weathers.city.name}} ({{weathers.city.country}})</h2></div>
             <div class="">
              <table class="table table-striped table-responsive-sm table-responsive-lg table-responsive-md table-hover table-bordered table-outline mb-0 " style="text-align: center;">
              	
