@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/bounce.css')}}">
 
         <!-- Styles -->
         <style>
@@ -78,7 +79,7 @@
             @endif
 
             <div class="content">
-                <img src="{{asset('img/sun.png')}}" style="height: 300px;">
+                <img class="bounce" src="{{asset('img/sun.png')}}" style="height: 300px;">
                 <div class="title m-b-md">
                     Weather
                 </div>
